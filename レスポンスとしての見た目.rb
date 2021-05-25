@@ -6,7 +6,7 @@
     RUBYコードの埋め込み：<%= %>でコードを囲むとコードの結果をHTMLに埋め込むことができる
 
 
-    
+ビューファイルの作成について
     app/views/posts/index.html.erb
       <h1>トップページ</h1>
        hello world

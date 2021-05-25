@@ -4,3 +4,11 @@
        別のファイルとして生成できる仕組み。
     ○○.html.erbファイル：ERBファイルのこと。○には対応するアクション名を記入する。
     RUBYコードの埋め込み：<%= %>でコードを囲むとコードの結果をHTMLに埋め込むことができる
+
+
+    
+    app/views/posts/index.html.erb
+      <h1>トップページ</h1>
+       hello world
+今回はpostsコントローラーのindexアクションに対応するビュー。
+postsディレクトリにindex.html.erbを作成します。​
